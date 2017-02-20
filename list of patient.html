@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>List</title>
+		<link rel="stylesheet" type="text/css" href="list of patient.css">
+	</head>
+	<body>
+		<div>
+			<h2>List of patient</h2>
+		</div>
+		<span>
+			SEARCH:
+			<input type="text" placeholder="Search for"id="jsonText" onkeyup="searchResults()">
+		</span>
+		<table border-collapse: "collapse" border="1px solid #dddddd" cellspacing="8xp" cellpadding="8px"  id="jsonList" class="jsonTable">
+			<thead>
+				<tr>
+					<td>First Name</td>
+					<td>Last Name</td>
+					<td>Age</td>
+					<td>DOB</td>
+					<td>Gender</td>
+					<td>Phone</td>
+				</tr>	
+			</thead>
+		</table>
+		<input type="button" id="newEntry" value="Submit" onclick="addDetails()">
+	
+	<script src="list of patient.js"></script>
+	</body> 
+</html>

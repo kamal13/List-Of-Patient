@@ -1,0 +1,40 @@
+.jsonTable{
+	background: #34495E;
+	color: #fff;
+	border-radius: .4em;
+	overflow: hidden;
+}
+#newEntry{
+	border-radius: 2px;
+	background-color: lightblue;
+	font-weight: bold;
+	margin-top: 1%;
+	margin-left: 45%;
+}
+span{
+	
+	margin-left: 40%;
+}
+h2{
+	text-align: center;
+}
+div{
+	background-color: skyblue;
+}
+tr{
+	border-color: lighten(#34495E, 10%);
+}
+th, td {
+	margin:5em 1em;
+	@media(min-width:  $breakpoint-alpha)
+	{
+		padding: 1em !important;
+	}
+}
+th, td{
+	color: #dd5;
+}
+table{
+	margin-top: 2% !important;
+	margin-left: 10%;
+}
